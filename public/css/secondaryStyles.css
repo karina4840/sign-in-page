@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    background-image: url(/img/wave1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+.jumbotron{
+    background-color: transparent;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #1e5245;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #1e5245;
+}
+
+.btn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    background-color: #3fad92;
+    color: white;
+}

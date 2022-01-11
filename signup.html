@@ -4,54 +4,62 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.1.1">
-    <title>Signin Template · Bootstrap</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sign-in/">
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <meta name="theme-color" content="#563d7c">
 
-
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-    
+    <title>YouNews Signin</title>
 </head>
 
 <body class="text-center">
-    <form class="form-signin" action="/" method="post">
-        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-        <label for="inputFirstName" class="sr-only">First Name</label>
-        <input type="text" name="firstName" id="inputFirstName" class="form-control top" placeholder="First Name"
-            required autofocus>
-        <label for="inputLastName" class="sr-only">Last Name</label>
-        <input type="text" name="lastName" id="inputLastName" class="form-control middle" placeholder="Last Name"
-            required>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" name="email" id="inputEmail" class="form-control bottom" placeholder="Email address"
-            required autofocus>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-        <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>
-    </form>
+    <div class="container">
+        <div class="left">
+            <img class="newspaper-picture" src="/img/newspaper-pic.png" alt="newspaper picture">
+            <p class="p font-weight-normal welcome-message">Welcome to</p>
+            <h1 class="h3 mb-3 font-weight-bold brand-message">YouNews</h1>
+            <p class="p font-weight-normal secondary-message">The application that offers news tailored for you. Tell us
+                what you like to read, we'll take care of the rest!</p>
+        </div>
+
+        <div class="right">
+            <form class="form-signin" action="/" method="post">
+
+                <h1 class="h3 mb-3 font-weight-bold signUp-message">Sign Up</h1>
+                <p class="p font-weight-normal secondary-message">Insert your name and email to recieve your daily news
+                    from around the world</p>
+                <label for="inputFirstName" class="sr-only">First Name</label>
+                <input type="text" name="firstName" id="inputFirstName" class="form-control top"
+                    placeholder="First Name" required autofocus>
+                <label for="inputLastName" class="sr-only">Last Name</label>
+                <input type="text" name="lastName" id="inputLastName" class="form-control middle"
+                    placeholder="Last Name" required>
+                <label for="inputEmail" class="sr-only">Email address</label>
+                <input type="email" name="email" id="inputEmail" class="form-control bottom" placeholder="Email address"
+                    required autofocus>
+
+
+                <button class="btn btn-lg btn-block" type="submit">Sign up</button>
+                <p class="mt-5 mb-3 text-muted"> 2022 | <a class="link-git" href="https://github.com/karina4840"
+                        target="_blank">Karina I</a> </p>
+            </form>
+        </div>
+    </div>
+
+
+
 </body>
 
 </html>

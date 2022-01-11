@@ -40,7 +40,7 @@ app.post("/", function(req, res){
     const url = "https://us20.api.mailchimp.com/3.0/lists/823e9f81b2"
     const options = {
         method: "post",
-        auth: "karina:658a5eb23a4738554ddbfa61c5a193cf-us20"
+        auth: "karina:d2a4a29a360ef3e3fcd5077aa373eb00-us20"
     }
     const request = https.request(url, options, function (response) { 
 
@@ -66,5 +66,5 @@ app.post("/failure", function(req, res){
 
 
 app.listen(process.env.PORT || 3000, function(){
-    console.log("runnin on 3000");
+    console.log("running on 3000");
 })
