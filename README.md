@@ -2,7 +2,7 @@
 
 ### The challenge
 
-This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+??????
                                                           
 ### Screenshot
 - YouNews Main Page <br>
@@ -28,7 +28,7 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 * thank you to [Gabriel Bivolaru](https://dribbble.com/GabrielBivolaru) at dribbble for design inspo
       
 <div align="center">
-    2021 | <a href="https://github.com/karina4840"> karina4840 </a>
+    2022 | <a href="https://github.com/karina4840"> karina4840 </a>
 </div>
 
 
