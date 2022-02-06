@@ -12,7 +12,7 @@
   <a href="https://sign-in-page-4840.herokuapp.com/">App Here</a>
 </div> 
 
-### Usage 
+### Description 
 - A sign up page that allows you to subscribe to a newsletter.
 - Data is registered and stored in **Mailchimp**.
 - The app styled with **CSS**, and deployed with **Heroku**.
